@@ -1,5 +1,5 @@
 ## Detecting Asymptomatic Bacteriuria in Clinical Notes using Large Language Models (LLMs)
-This repository is the methods and code companion for the capstone project for a master's in Biomedical Informatics at the University of Pennsylvania. 
+This repository is the methods and code companion for my capstone project for a master's in Biomedical Informatics at the University of Pennsylvania. 
 
 Contained in this repository are 1) prompt templates for urinary tract infection (UTI) symptoms; 2) code for calculating the cost to use large language models (LLMs) to process clinical notes; 3) code for preprocessing clinical notes, hitting model endpoints, evaluating model performance, and tracking experiments in Mlflow; 4) synthetic data for testing code; and 5) docuentation for adapting code to other studies.
 
