@@ -21,14 +21,8 @@ This
 
 ## Usage
 
-## Prompt Engineering Approach
-
-## Evaluation Metrics
-
-## Error Taxonomy 
-
 ## Software
-LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform, temperature 0.1 (where supported)
+LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform
 
 ## License
 
