@@ -1,5 +1,5 @@
 ## Detecting Asymptomatic Bacteriuria in Clinical Notes using Large Language Models (LLMs)
-This repository contains the methods and code for Leigh Cressman's capstone project in the Master of Biomedical Informatics (MBMI) program at the University of Pennsylvania (crel@pennmedicine.upenn.edu). 
+This repository contains the code for Leigh Cressman's capstone project in the Master of Biomedical Informatics (MBMI) program at the University of Pennsylvania (crel@pennmedicine.upenn.edu). 
 
 Included in this repository are: 
 1) Prompt templates for urinary tract infection (UTI) symptoms
@@ -25,6 +25,7 @@ This
 LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform
 
 ## License
+GPL-3.0 license
 
 ## Acknowledgements 
 
