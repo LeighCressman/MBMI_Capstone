@@ -1,6 +1,7 @@
 ## Detecting Asymptomatic Bacteriuria in Clinical Notes using Large Language Models (LLMs)
 This repository contains the code for Leigh Cressman's capstone project in the Master of Biomedical Informatics (MBMI) program at the University of Pennsylvania (crel@pennmedicine.upenn.edu). Advisors for this project are Danielle Mowery, PhD (dlmowery@pennmedicine.upenn.edu), and Lauren Dutcher, MD (ldutcher@pennmedicine.upenn.edu).
-Data for this project are from the following study: Salcedo SR, Degnan K, Suarez M, Dutcher L. P-2046. Unnecessary Urine Culture Testing and Treatment of Asymptomatic Bacteriuria in Hospitalized Non-Catheterized Patients: Finding the Right Target for Diagnostic Stewardship Interventions. Open Forum Infect Dis. 2026 Jan 11;13(Supplement_1):ofaf695.2210. doi:10.1093/ofid/ofaf695.2210
+
+Data used in this project are from the following study: Salcedo SR, Degnan K, Suarez M, Dutcher L. P-2046. Unnecessary Urine Culture Testing and Treatment of Asymptomatic Bacteriuria in Hospitalized Non-Catheterized Patients: Finding the Right Target for Diagnostic Stewardship Interventions. Open Forum Infect Dis. 2026 Jan 11;13(Supplement_1):ofaf695.2210. doi:10.1093/ofid/ofaf695.2210
 
 Included in this repository: 
 1) Code for generating synthetic patient notes
