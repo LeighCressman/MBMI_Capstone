@@ -3,6 +3,7 @@ This repository contains the code for Leigh Cressman's capstone project in the M
 
 Data used in this project are from the following study: Salcedo SR, Degnan K, Suarez M, Dutcher L. P-2046. Unnecessary Urine Culture Testing and Treatment of Asymptomatic Bacteriuria in Hospitalized Non-Catheterized Patients: Finding the Right Target for Diagnostic Stewardship Interventions. Open Forum Infect Dis. 2026 Jan 11;13(Supplement_1):ofaf695.2210. doi:10.1093/ofid/ofaf695.2210
 
+
 Included in this repository: 
 1) Code for generating synthetic patient notes
 2) Prompt templates for urinary tract infection (UTI) symptoms
