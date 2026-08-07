@@ -57,10 +57,8 @@ def fill_prompt(note_text: str, prompts: Optional[Dict[str, str]] = None) -> str
 notes_concat = pd.read_csv("./synthetic_notes_concat.csv")
 
 data = [i for i in range(100)]
-train, test = train_test_split(notes_concat, test_size = 0.3, random_state = 42)
+training_data, test_data = train_test_split(notes_concat, test_size = 0.3, random_state = 42)
 print(f"Train size: {len(train)}, Test size: {len(test)}")
-
-training_data = train
 
 ################################################################
 # 3) Load prompt and fill with note text for training dataset
@@ -87,12 +85,10 @@ for filename in os.listdir(json_folder):
                 
             })
 
-
 # Convert filled prompts to df
 # 200 training patients x 9 prompts per patient
 results_df = pd.DataFrame(results)
 print(f"Total filled prompts: {len(results_df)}")
-print(results_df.head())
 
 
 ########################################
@@ -161,7 +157,7 @@ y_true = labels_merged["symptom_present"]
 y_pred = labels_merged["llm_label"]
 
 # start run
-with mlflow.start_run(run_name="YOUR_RUN_NAME"):
+with mlflow.start_run(run_name = "YOUR_RUN_NAME"):
 
     # 1) overall metrics
     accuracy = accuracy_score(y_true, y_pred)
@@ -182,7 +178,7 @@ with mlflow.start_run(run_name="YOUR_RUN_NAME"):
 
     plt.figure()
     plt.plot(fpr, tpr, label=f"AUC = {roc_auc:.3f}")
-    plt.plot([0, 1], [0, 1], linestyle='--')  # diagonal line
+    plt.plot([0, 1], [0, 1], linestyle='--')  
     plt.xlabel("False Positive Rate")
     plt.ylabel("True Positive Rate")
     plt.title("ROC Curve")
