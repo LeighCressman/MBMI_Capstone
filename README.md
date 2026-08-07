@@ -18,8 +18,8 @@ This project uses Databricks Model Serving endpoints on the Penn Medicine Databr
 ## Usage
 Run the Python scripts in this order:
 1) generate_synthetic_notes.py
-2) calculate_cost.py (optional)
-3) pre_process_notes.py
+2) pre_process_notes.py
+3) calculate_cost.py (optional)
 4) run_inference.py
 
 ## Software
