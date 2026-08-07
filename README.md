@@ -5,20 +5,23 @@ Included in this repository are:
 1) Script for generating synthetic data
 2) Prompt templates for urinary tract infection (UTI) symptoms
 3) Code for calculating the cost to use large language models (LLMs) to process clinical notes
-4) Code for preprocessing clinical notes, hitting model endpoints, evaluating model performance, and tracking experiments in Mlflow
-5) Documentation for adapting code to other studies
+4) Code for preprocessing clinical notes
+5) Code for hitting model endpoints, evaluating model performance, and tracking experiments in Mlflow
 
 ## Note on LLM Inference Infrastructure
 This project uses Databricks Model Serving endpoints on the Penn Medicine Databricks platform for performing LLM inference. Said platform is a HIPAA-compliant, institutionally managed environment. No patient notes were sent to external OpenAI APIs. The model endpoints referenced (e.g., "databricks-gpt-5-mini") are Databricks-hosted serving endpoints that use OpenAI models which are part of Penn Medicine's Azure environment.
 
 ## Repository Contents
-This 
 
 ## Study Overview
 
 ## Installation
 
 ## Usage
+Run the Python scripts in this order:
+1) generate_synthetic_notes.py
+2) calculate_cost.py (if you are concerned about project cost)
+3) pre_process_notes.py
 
 ## Software
 LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform
@@ -27,6 +30,7 @@ LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform
 GPL-3.0 license
 
 ## Acknowledgements 
+This repo uses code from https://github.com/ugurcanvurgun/sdoh-llm-clinical-notes. Additionally, Sy Hwang, PhD student at University of Pennsylvania, contributed some of this project's code.
 
 
 
