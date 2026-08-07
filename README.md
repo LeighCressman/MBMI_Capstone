@@ -6,7 +6,7 @@ Included in this repository are:
 2) Prompt templates for urinary tract infection (UTI) symptoms
 3) Code for calculating the cost to use large language models (LLMs) to process clinical notes
 4) Code for preprocessing clinical notes
-5) Code for hitting model endpoints, evaluating model performance, and tracking experiments in Mlflow
+5) Code for hitting model endpoints, evaluating model performance, and tracking experiments in MLflow
 
 ## Note on LLM Inference Infrastructure
 This project uses Databricks Model Serving endpoints on the Penn Medicine Databricks platform for performing LLM inference. Said platform is a HIPAA-compliant, institutionally managed environment. No patient notes were sent to external OpenAI APIs. The model endpoints referenced (e.g., "databricks-gpt-5-mini") are Databricks-hosted serving endpoints that use OpenAI models which are part of Penn Medicine's Azure environment.
