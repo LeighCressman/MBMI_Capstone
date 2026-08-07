@@ -42,7 +42,7 @@ for filename in os.listdir(json_folder):
 ###############################
 
 # file generated in pre-processing step
-full_notes_df = pd.read_csv("/dbfs/FileStore/synthetic_notes_concat.csv")
+full_notes_df = pd.read_csv("./synthetic_notes_concat.csv")
 
 # count tokens for each note
 full_notes_df["note_token_count"] = full_notes_df["note_text"].apply(lambda x: len(enc.encode(str(x))))
