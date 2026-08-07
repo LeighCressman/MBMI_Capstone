@@ -1,5 +1,5 @@
 ## Detecting Asymptomatic Bacteriuria in Clinical Notes using Large Language Models (LLMs)
-This repository contains the code for Leigh Cressman's capstone project in the Master of Biomedical Informatics (MBMI) program at the University of Pennsylvania (crel@pennmedicine.upenn.edu). Advisors for this project are Danielle Mowery, PhD ((dlmowery@pennmedicine.upenn.edu), and Lauren Dutcher, MD (ldutcher@pennmedicine.upenn.edu).
+This repository contains the code for Leigh Cressman's capstone project in the Master of Biomedical Informatics (MBMI) program at the University of Pennsylvania (crel@pennmedicine.upenn.edu). Advisors for this project are Danielle Mowery, PhD (dlmowery@pennmedicine.upenn.edu), and Lauren Dutcher, MD (ldutcher@pennmedicine.upenn.edu).
 
 Included in this repository: 
 1) Code for generating synthetic patient notes
