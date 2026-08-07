@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 
 
 ########################################
-# 1) set parameters
+# 1) Set parameters
 ########################################
 
 # set seed
@@ -56,7 +56,7 @@ ASB_PREVALENCE = 0.64
 
 
 ######################################
-# 2) define helper functions
+# 2) Define helper functions
 ######################################
 # generate random date
 def random_date(start, end):
@@ -73,7 +73,7 @@ def generate_patient_ids(n):
 
 
 ######################################
-# 3) create dataset with hand labels
+# 3) Create dataset with hand labels
 ######################################
 
 # generate patient ids
@@ -122,7 +122,7 @@ labels_df = pd.DataFrame(labels)
 
 
 ######################################
-# 4) create note templates
+# 4) Create note templates
 ######################################
 
 # templates for presence of UTI symtoms
@@ -262,7 +262,7 @@ ENDING_PHRASES = [
 
 
 ######################################
-# 5) dataset with notes
+# 5) Dataset with notes
 ######################################
 
 # create new dataframe 
@@ -348,7 +348,7 @@ notes_df = pd.DataFrame(notes)
 
 
 ######################################
-# 6) check counts
+# 6) Check counts
 ######################################
 
 # unique patients
@@ -362,7 +362,7 @@ print(f"Label rows: {len(labels_df)}")
 
 
 ######################################
-# 7) export datasets
+# 7) Export datasets
 ######################################
 # dataset with notes
 notes_df.to_csv("./synthetic_notes.csv", index = False)
