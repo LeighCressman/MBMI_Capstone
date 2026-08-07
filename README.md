@@ -11,7 +11,7 @@ Included in this repository are:
 ## Note on LLM Inference Infrastructure
 This project used Databricks Model Serving endpoints on the Penn Medicine Databricks platform for performing LLM inference. Said platform is a HIPAA-compliant, institutionally managed environment. No patient notes were sent to external OpenAI APIs. The model endpoints used in the study (e.g., "databricks-gpt-5-mini") are Databricks-hosted serving endpoints that use OpenAI models which are part of Penn Medicine's Azure environment.
 
-The code is set up so that you can use your own API key to run OpenAI API on synthetic patient notes.
+The code in run_inference.py is configured to allow users to provide their own API key when sending synthetic patient notes to the OpenAI API.
 
 ## Usage
 Run the Python scripts in this order:
