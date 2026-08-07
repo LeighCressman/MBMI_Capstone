@@ -18,7 +18,7 @@ This project uses Databricks Model Serving endpoints on the Penn Medicine Databr
 ## Usage
 Run the Python scripts in this order:
 1) generate_synthetic_notes.py
-2) calculate_cost.py (if you are concerned about project cost)
+2) calculate_cost.py (optional)
 3) pre_process_notes.py
 4) run_inference.py
 
@@ -29,7 +29,7 @@ LLM inference: Databricks Model Serving on the Penn Medicine Databricks platform
 GPL-3.0 license
 
 ## Acknowledgements 
-This repo uses code from https://github.com/ugurcanvurgun/sdoh-llm-clinical-notes. Additionally, Sy Hwang, PhD student at University of Pennsylvania, contributed some of this project's code.
+This repo uses code from https://github.com/ugurcanvurgun/sdoh-llm-clinical-notes. Additionally, Sy Hwang, PhD student at University of Pennsylvania, contributed to this project's code.
 
 
 
